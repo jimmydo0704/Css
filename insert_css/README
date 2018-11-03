@@ -1,0 +1,10 @@
+1. External
+2. Internal
+3. Inline
+4. Multiple
+    The last defined value will be affected
+    
+Cascading order:
+    1. Inline
+    2. External and Internal
+    3. Browser default
