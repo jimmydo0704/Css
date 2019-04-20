@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+        <title>Demo combinators</title>
+    </head>
+    <body>
+        <!-- Demo general sibling: ~ -->
+        <div>
+            <h1 class="general">Demo for general sibling with ~</h1>
+            <p>CSS applied</p>
+            <p>CSS applied</p>
+        </div>
+
+        <!-- Demo adjacent sibling:  + -->
+        <div>
+            <h1 class="adjacent">Demo for adjacent sibling with +</h1>
+            <p>CSS applied</p>
+            <p>CSS NOT applied</p>
+        </div>
+        <!-- Descendant: <whitespace> -->
+        <div>
+            <h1>Demo for Descendant combinator whitespace</h1>
+            <div class="descendant">
+                <p>CSS applied</p>
+                <div><p>CSS applied</p></div>
+            </div>
+        </div>
+
+        <!-- child: > -->
+        <div>
+            <h1>Demo for Child combinator ></h1>
+            <div class="child">
+                    <p>CSS applied</p>
+                    <div><p>CSS NOT applied</p></div>
+                    <p>CSS applied</p>
+            </div>
+        </div>
+
+    </body>
+</html>

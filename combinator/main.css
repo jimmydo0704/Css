@@ -1,0 +1,21 @@
+/* General sibling selector with ~  */
+.general ~ p {
+    background-color: blue;
+}
+
+/* Adjacent sibling selector with +  */
+.adjacent + p {
+    background-color: red;
+}
+
+/* child selector with >
+con truc tiep */
+.child > p {
+    background-color: burlywood;
+}
+
+/* Descendant combinator selector with <whitespace>
+con*/
+.descendant p {
+    background-color: bisque;
+}
